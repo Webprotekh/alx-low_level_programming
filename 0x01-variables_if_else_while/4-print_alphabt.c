@@ -3,7 +3,7 @@
 /**
  * main - printing out all alphabet in lower case except q and e
  *
- * Return - Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -13,7 +13,7 @@ int main(void)
 	for (missalpha = 'a'; missalpha <= 'z'; missalpha++)
 	{
 		if (missalpha == 'e' || missalpha == 'q')
-			break;
+			continue;
 		putchar(missalpha);
 	}
 	putchar('\n');
