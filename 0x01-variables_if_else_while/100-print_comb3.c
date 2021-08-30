@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main - print combination of numbers in 2 digit
  *
  * Return: Alway 0 (Success)
  */
@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i, j, k;
+	i = 0;
 
 	while (i <= 99)
 	{
