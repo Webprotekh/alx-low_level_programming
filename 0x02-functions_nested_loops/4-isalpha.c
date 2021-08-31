@@ -3,7 +3,7 @@
 /**
  * _isalpha - check if it is lower or upper case
  *
- * parameter - the parameter to check
+ * @c - the parameter to check
  *
  * Return: Either 1 or 0
  */
