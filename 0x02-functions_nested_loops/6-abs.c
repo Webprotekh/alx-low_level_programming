@@ -11,5 +11,7 @@
 int _abs(int i)
 {
 	int x = i;
+
+	_putchar(x);
 	return (0);
 }
