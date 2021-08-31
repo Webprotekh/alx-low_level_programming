@@ -3,7 +3,7 @@
 /**
  * _islower - Checking for lower case
  *
- * parameter - what to check
+ * parameter or member 'c' - what to check
  *
  * Return: Always 0
  */
