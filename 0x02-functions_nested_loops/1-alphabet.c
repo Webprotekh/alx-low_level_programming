@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints out alphabet in lowercase
+ * print_alphabet - Prints out alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
