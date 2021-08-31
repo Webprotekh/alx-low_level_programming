@@ -10,6 +10,7 @@ int main(void)
 {
 	char c = 'H';
 	c += 'o';
+
 	_putchar(c);
 	c += 'l';
 	_putchar(c);
