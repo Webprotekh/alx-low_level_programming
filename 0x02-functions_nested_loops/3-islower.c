@@ -8,9 +8,9 @@
 
 int _islower(int c)
 {
-	int letter = c;
+	int c = 'c';
 
-	if (_islower(letter))
+	if (c)
 	{
 		return (1);
 	}
