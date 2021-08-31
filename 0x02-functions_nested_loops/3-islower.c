@@ -7,9 +7,9 @@
  * Return: Always 1 or 0
  */
 
-int islower(int c)
+int islower(int 'c')
 {
-	char c;
+	char c = islower('c');
 
 	if (c > 0)
 		return (1);
