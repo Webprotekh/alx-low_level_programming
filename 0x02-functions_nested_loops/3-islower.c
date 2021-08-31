@@ -12,7 +12,7 @@ int _islower(int c)
 
 	if (_islower(letter))
 	{
-		return (1);;
+		return (1);
 	}
 	else
 		return (0);
