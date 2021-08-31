@@ -6,12 +6,14 @@
  * Return: Always 1 or 0
  */
 
-int islower(int c)
+int _islower(int c)
 {
-	int q = 'e';
+	int letter = 'e';
 
-	if (islower(q))
-		return (1);
+	if (_islower(letter))
+	{
+		return (1);;
+	}
 	else
 		return (0);
 }
