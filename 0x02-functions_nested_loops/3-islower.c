@@ -11,7 +11,7 @@
 int _islower(int c)
 {
 	int letter = c;
-	int letters = C;
+	int letters = 'C';
 
 	if (letter)
 		return (1);
