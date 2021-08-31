@@ -11,9 +11,10 @@
 int _islower(int c)
 {
 	int letter = c;
+	int letters = !c;
 
 	if (letter)
 		return (1);
-	else
+	else if (letters)
 		return (0);
 }

@@ -14,6 +14,6 @@ int _isalpha(int c)
 
 	if (alpha)
 		return (1);
-	else if (!alpha)
+	else
 		return (0);
 }
