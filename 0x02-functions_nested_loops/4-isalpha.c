@@ -11,8 +11,9 @@
 int _isalpha(int c)
 {
 	int alpha = c;
+	int alpha2 = C;
 
-	if (alpha)
+	if (alpha || alpha2)
 		return (1);
 	else
 		return (0);
