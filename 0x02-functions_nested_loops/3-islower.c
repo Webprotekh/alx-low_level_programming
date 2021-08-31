@@ -8,9 +8,9 @@
 
 int islower(int c)
 {
-	int c = islower('c');
+	int q = islower('e');
 
-	if (c > 0)
+	if (q)
 		return (1);
 	else
 		return (0);
