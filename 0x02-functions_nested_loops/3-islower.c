@@ -12,7 +12,7 @@ int _islower(int c)
 {
 	int letter = c;
 
-	if (unsigned(letter))
+	if (letter)
 		return (1);
 	else
 		return (0);
