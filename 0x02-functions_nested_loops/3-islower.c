@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - Checking for lower case
+ * _islower - Checking for lower case
  *
  * c - returns 1 or 0
  *
@@ -12,7 +12,7 @@ int _islower(int c)
 {
 	int letter = c;
 
-	if (letter)
+	if (unsigned(letter))
 		return (1);
 	else
 		return (0);
