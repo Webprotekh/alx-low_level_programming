@@ -3,7 +3,7 @@
 /**
  * _islower - Checking for lower case
  *
- * c - returns 1 or 0
+ * parameter - what to check
  *
  * Return: Always 0
  */
@@ -12,7 +12,7 @@ int _islower(int c)
 {
 	int letter = c;
 
-	if (letter >= 'a' && letter <= 'z')
+	if (letter > 'a' && letter <= 'z')
 		return (1);
 	else if (letter >= 'A' && letter <= 'Z')
 		return (0);
