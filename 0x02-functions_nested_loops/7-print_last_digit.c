@@ -12,16 +12,14 @@ int print_last_digit(int nums)
 {
 	int x = nums % 10;
 
-	if (x > 0)
+	if (x < 0)
 	{
-		x = _putchar('0' + x);
-		return (x);
-	}
-	else if (x < 0)
-	{
-		x = _putchar('1' + x);
-		return (x);
+		 _putchar(-x + 48);
+		return (-x);
 	}
 	else
+	{
+		_putchar(x + 48);
 		return (x);
+	}
 }
