@@ -19,7 +19,7 @@ int print_last_digit(int nums)
 	}
 	else if (x < 0)
 	{
-		x = _putchar('-1' + x);
+		x = _putchar('1' + x);
 		return (x);
 	}
 	else
