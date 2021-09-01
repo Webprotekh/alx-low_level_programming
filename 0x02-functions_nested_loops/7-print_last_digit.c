@@ -10,6 +10,10 @@
 
 int print_last_digit(int nums)
 {
-	int x = nums % 100;
+	int x = nums % 10;
+	char c = x;
+
+	c += x;
+
 	return (x);
 }
