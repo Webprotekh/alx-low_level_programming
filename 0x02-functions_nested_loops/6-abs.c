@@ -13,15 +13,9 @@ int _abs(int i)
 	int num = i;
 
 	if (num > 0)
-	{
-		_putchar(num);
 		return (num);
-	}
 	else if (num < 0)
-	{
-		_putchar(num);
 		return (-num);
-	}
 	else
 		return (0);
 }
