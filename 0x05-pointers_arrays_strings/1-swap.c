@@ -10,9 +10,9 @@
 
 void swap_int(int *a, int *b)
 {
-	_putchar("a=%d, b=%d", *a, *b);
+	_putchar("%d, %d", *a, *b);
 	*a = *a + *b;
 	*b = *a - *b;
 	*a = *a - *b;
-	_putchar("a=%d, b=%d", *a, *b);
+	_putchar("%d, %d", *a, *b);
 }
