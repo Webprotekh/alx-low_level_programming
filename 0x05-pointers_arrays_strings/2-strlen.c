@@ -1,7 +1,13 @@
-#include <main.h>
+#include "main.h"
 
-/*
+/**
+ * _strlen - Finding the string length
+ * @s: Parameter to check
  *
- *
+ * Return: Always 0
  */
 
+int _strlen(char *s)
+{
+	return 0;
+}
