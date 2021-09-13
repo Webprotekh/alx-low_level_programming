@@ -12,23 +12,14 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int j;
+	int size = n;
 
-	j = 0;
-	while (j < n)
+	if (size > 0)
 	{
-		if (j % 10)
-		{
-			_putchar(" ");
-		}
-		if (!(j % 10) && j)
-		{
-			_putchar('\n');
-		}
-		_putchar('0x%01x', buffer[j]);
-		j++;
-	}
-	_putchar('\n');
+		int i;
 
-	return 0;
+		for (i = 0; i < size; i++)
+			s[i] = b;
+	}
+	return (s);
 }
