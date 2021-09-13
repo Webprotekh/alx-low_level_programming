@@ -2,7 +2,7 @@
 #define NULL 0
 
 /**
- * _strchr- searching for character in a string
+ * _strchr - searching for character in a string
  * @s: paramenter string to scan
  * @c: parameter character to search for
  *
