@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
-	if (argc > 1)
+	if (argc == 3)
 	{
 		multiply = num1 * num2;
 		printf("%d\n", multiply);
 	}
-	else if (argc <= 1)
+	else
 		printf("Error\n");
 	return (1);
 }
