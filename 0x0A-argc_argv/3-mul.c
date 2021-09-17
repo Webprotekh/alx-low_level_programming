@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -11,16 +13,14 @@
 
 int main(int argc, char *argv[])
 {
-	int multiply, count;
-	
-	multiply = 1;
+	int multiply, num1, num2;
+
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
 	if (argc > 1)
 	{
-		for (count = 1; count < argc; count++)
-		{
-			multiply *= atoi(argv[count]);
-			printf("%d\n", multiply);
-		}
+		multiply = num1 * num2;
+		printf("%d\n", multiply):
 	}
 	else
 		printf("Error\n");
