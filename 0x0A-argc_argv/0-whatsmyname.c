@@ -4,7 +4,7 @@
 /**
  * main - To write a program that print out its name
  * @argc: Parameter for the program count
- * @argv[]: The parameter for the array
+ * @argv: The parameter for the array
  *
  * Return: Always 0
  */
@@ -13,8 +13,10 @@ int main(int argc, char *argv[])
 {
 	int count;
 
-	count = 0;
-	if (argc == count)
-		printf("./%s\n", argv[count]);
+	if (argc == 1)
+	{
+		for (count = 0; count < argc; count++)
+			printf("./%s\n", argv[count]);
+	}
 	return (0);
 }
