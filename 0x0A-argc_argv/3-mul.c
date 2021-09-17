@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		multiply = num1 * num2;
 		printf("%d\n", multiply);
 	}
-	else
+	else if (argc <= 1)
 		printf("Error\n");
 	return (1);
 }
