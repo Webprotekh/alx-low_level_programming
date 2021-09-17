@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * main - To write a program that print out number of arguments passed to it
- * @argc: Parameter for the program count
- * @argv: The parameter for the array
- *
- * Return: Always 0
- */
+* main - print number of arguments passed to program
+* @argc: argument counter
+* @argv: pointer to array of arguments
+* Return: 0 on success
+*/
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	if (argc > 0)
-		printf("%d\n", (argc - 1));
-	return (0);
+if (argc > 0)
+printf("%d\n", argc - 1);
+
+return (0);
 }
