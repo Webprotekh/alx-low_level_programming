@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		multiply = num1 * num2;
-		printf("%d\n", multiply):
+		printf("%d\n", multiply);
 	}
 	else
 		printf("Error\n");
