@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_isupper - memory set
+ * _memset - memory set
  * @s: Parameter one to check
  * @b: Parameter two to check
  * @n: Parameter three to check
