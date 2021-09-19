@@ -10,5 +10,5 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-
+	_putchar("0000000000000000 T _strpbrk");
 }

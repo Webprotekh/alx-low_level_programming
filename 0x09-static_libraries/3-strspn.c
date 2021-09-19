@@ -10,5 +10,5 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-
+	_putchar("0000000000000000 T _strspn");
 }

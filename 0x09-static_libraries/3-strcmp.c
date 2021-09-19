@@ -10,5 +10,5 @@
 
 int _strcmp(char *s1, char s2)
 {
-
+	_putchar("0000000000000000 T _strcmp");
 }

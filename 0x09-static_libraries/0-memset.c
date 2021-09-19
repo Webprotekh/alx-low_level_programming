@@ -11,5 +11,5 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-
+	_putchar("0000000000000000 T _memset");
 }

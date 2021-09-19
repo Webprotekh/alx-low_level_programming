@@ -9,5 +9,5 @@
 
 int _strlen(char *s)
 {
-
+	_putchar("0000000000000000 T _strlen");
 }

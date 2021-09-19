@@ -10,5 +10,5 @@
 
 char *_strcpy(char *dest, char *src)
 {
-
+	_putchar("0000000000000000 T _strcpy");
 }
