@@ -9,5 +9,4 @@
 
 int _isupper(int c)
 {
-	_putchar("0000000000000000 T _isupper");
 }
