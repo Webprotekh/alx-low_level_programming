@@ -9,5 +9,6 @@
  * Return: Always 0;
  */
 
-char *_strncat(char *dest, char *src, unsigned int n)
-{}
+char *_strncat(char *dest, char *src, int n)
+{
+}
