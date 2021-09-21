@@ -10,6 +10,5 @@
  */
 int _putchar(char c)
 {
-	_putchar("0000000000000000 T _putchar");
 	return (write(1, &c, 1));
 }

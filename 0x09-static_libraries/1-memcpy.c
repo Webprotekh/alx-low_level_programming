@@ -10,6 +10,4 @@
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	_putchar("0000000000000000 T _memcpy");
-}
+{}

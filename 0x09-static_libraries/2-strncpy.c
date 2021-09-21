@@ -10,6 +10,4 @@
  */
 
 char *_strncpy(char *dest, char *src, int n)
-{
-	_putchar("0000000000000000 T _strncpy");
-}
+{}

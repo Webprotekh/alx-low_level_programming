@@ -8,6 +8,4 @@
  */
 
 int _isdigit(int c)
-{
-	_putchar("0000000000000000 T _isdigit");
-}
+{}
