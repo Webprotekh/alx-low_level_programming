@@ -12,7 +12,6 @@ void print_triangle(int size)
 	if (size > 0)
 	{
 		int row, col, i;
-		
 		for (i = 0; i < size; i++)
 		{
 			for (row = size; row > i; row--)
