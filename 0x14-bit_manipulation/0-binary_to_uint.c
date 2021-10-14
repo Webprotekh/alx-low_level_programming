@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,21 +11,38 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int k = 1;
-	unsigned int i=0;
-	int c;
-	unsigned int len;
-	
-	len = strlen(b);
-	for (c = len-1; c >= 0; c--)
+	unsigned int len = 0, count = 0, sum = 0;
+
+	if (b == NULL)
+		return (0);
+
+	len = _strlen(b);
+	while (len--)
 	{
-		if (b[c] != '0' && b[c] != '1')
+		if (b[len] != 48 && b[len] != 49)
 			return (0);
-		if (b[c] == '1')
-		{
-			i += k;
-		}
-		k *= 2;
+
+		if (b[len] == 49)
+			sum += 1 << count;
+
+		count++;
 	}
-	return (i);
+
+	return (sum);
+}
+
+/**
+  * _strlen - Returns the length of a string
+  * @s: String to count
+  *
+  * Return: String length
+  */
+int _strlen(const char *s)
+{
+	int c = 0;
+
+	while (s[c])
+		c++;
+
+	return (c);
 }
